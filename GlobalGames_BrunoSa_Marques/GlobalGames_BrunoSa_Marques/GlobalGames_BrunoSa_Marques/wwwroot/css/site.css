@@ -1,4 +1,6 @@
-﻿body {
+﻿@import url('file:///C:\Users\samar\OneDrive\Desktop\AppWeb2\Global-Games\GlobalGames_BrunoSa_Marques\GlobalGames_BrunoSa_Marques\GlobalGames_BrunoSa_Marques\wwwroot\css\site.min.css');
+@import url('file:///C:\Users\samar\OneDrive\Desktop\AppWeb2\Global-Games\GlobalGames_BrunoSa_Marques\GlobalGames_BrunoSa_Marques\GlobalGames_BrunoSa_Marques\wwwroot\css\site.css');
+body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
@@ -161,6 +163,129 @@ aside#sidebar .orcamento textarea {
     padding: 5px;
 }
 
+
+
+/*Estilo Form list*/
+
+#form-containner{
+    min-width:600px;
+}
+
+
+#regist{
+    background-color:#35424a;
+    
+    position:relative;
+    height:400px;
+    
+    border-radius:5px;
+   
+}
+    #regist #List-item1{
+        color:#e8491d;
+        font-style:italic;
+        font-size:12pt;
+        margin:auto;
+        position:absolute;
+        top:30px;
+        left:2vw;
+        width:100%;
+
+    }
+
+        #regist #List-item1 input{
+            width:80%;
+            margin-left:15px;
+
+        }
+
+    #regist #List-item2 {
+        color: #e8491d;
+        font-style: italic;
+        font-size: 12pt;
+        margin: auto;
+        position: absolute;
+        top: 70px;
+        left: 2vw;
+        width: 100%;
+    }
+
+        #regist #List-item2 input {
+            width: 80%;
+            margin-left: 5px;
+        }
+
+    #regist #List-item3 {
+        color: #e8491d;
+        font-style: italic;
+        font-size: 12pt;
+        margin: auto;
+        position: absolute;
+        top: 110px;
+        left: 2vw;
+        width: 100%;
+    }
+
+        #regist #List-item3 input {
+            width: 80%;
+            margin-left: 5px;
+        }
+
+    #regist #List-item4 {
+        color: #e8491d;
+        font-style: italic;
+        font-size: 12pt;
+        margin: auto;
+        position: absolute;
+        top: 150px;
+        left: 2vw;
+        width: 100%;
+    }
+
+        #regist #List-item4 input {
+            width: 75%;
+            margin-left: 10px;
+        }
+
+    #regist #List-item5 {
+        color: #e8491d;
+        font-style: italic;
+        font-size: 12pt;
+        margin: auto;
+        position: absolute;
+        top: 190px;
+        left: 2vw;
+        width: 100%;
+    }
+
+        #regist #List-item5 input {
+            width: 80%;
+            margin-left: 35px;
+        }
+
+    #regist #List-item6 {
+        color: #e8491d;
+        font-style: italic;
+        font-size: 12pt;
+        margin: auto;
+        position: absolute;
+        top: 230px;
+        left: 2vw;
+        width: 100%;
+    }
+
+        #regist #List-item6 input {
+            width: 50%;
+            margin-left: 20px;
+        }
+
+
+#resg_list{
+    position:absolute;
+    top:85%;
+    left:80%;
+
+}
 /*Footer*/
 footer {
     padding: 20px;

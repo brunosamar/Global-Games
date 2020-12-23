@@ -1,4 +1,5 @@
 ﻿using GlobalGames_BrunoSa_Marques.Data;
+using GlobalGames_BrunoSa_Marques.Data.Entities;
 using GlobalGames_BrunoSa_Marques.Entities.Entities;
 using GlobalGames_BrunoSa_Marques.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -41,6 +42,15 @@ namespace GlobalGames_BrunoSa_Marques.Controllers
             return View();
         }
 
+
+        public IActionResult List()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
@@ -68,6 +78,38 @@ namespace GlobalGames_BrunoSa_Marques.Controllers
             }
             return View(orcamento);
         }
+
+
+
+
+        // GET: Registers/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id,Name,Surname,Address,City,CC,Birth")] Register register)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(register);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(register);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
