@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Global-Games", "Global-Games\Global-Games.csproj", "{52A8054A-B91D-4DDC-BB60-297854555311}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalGames_BrunoSa_Marques", "GlobalGames_BrunoSa_Marques\GlobalGames_BrunoSa_Marques.csproj", "{E0B21018-A2DE-4C63-9C59-862DD93174E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{52A8054A-B91D-4DDC-BB60-297854555311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{52A8054A-B91D-4DDC-BB60-297854555311}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{52A8054A-B91D-4DDC-BB60-297854555311}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{52A8054A-B91D-4DDC-BB60-297854555311}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B21018-A2DE-4C63-9C59-862DD93174E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B21018-A2DE-4C63-9C59-862DD93174E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B21018-A2DE-4C63-9C59-862DD93174E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B21018-A2DE-4C63-9C59-862DD93174E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B58112A6-AECF-4E8F-94B5-E568EE76FB56}
+		SolutionGuid = {B6C537E7-99DD-41E7-BD27-89EBD0DE0BA2}
 	EndGlobalSection
 EndGlobal

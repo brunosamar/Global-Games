@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - GlobalGames_BrunoSa_Marques</title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="/css/site.css" />
+
+    </environment>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1><span class="destaque">Global</span> Games Enterprise</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li id="Index"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                    <li id="About"><a asp-controller="Home" asp-action="About">Sobre</a></li>
+                    <li id="Contact"><a asp-controller="Home" asp-action="Contact">Serviços</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="showcase">
+        <div class="container">
+            <h1>A melhor plataforma de realidade virtual</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, deleniti commodi sapiente, eligendi nesciunt accusamus, architecto alias consequatur sunt ipsam porro fugit voluptates suscipit vero sint culpa non numquam hic?</p>
+        </div>
+    </section>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscreve a nossa newsletter</h1>
+            <form>
+                <input type="email" placeholder="Coloque email..." />
+                <button type="submit" class="button_1">Subscrever</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <partial name="_CookieConsentPartial" />
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <hr />
+    <div>
+        <footer>
+            <p>Global Games, Todos os direitos reservados &copy; CET 49 2020</p>
+        </footer>
+    </div>
+
+    <environment include="Development">
+
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
